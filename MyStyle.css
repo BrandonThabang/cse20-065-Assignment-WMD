@@ -46,7 +46,7 @@ div.a {
 	margin: 100px;
 }
 div.Tokyo_lifestyle{
-	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/emil-karlsson-YfjdfsKQBsA-unsplash.jpg");
+	background-image: url("Assignment Images/emil-karlsson-YfjdfsKQBsA-unsplash.jpg");
 	background-size:cover;
 	position: relative;
 	text-align: center;
@@ -88,7 +88,7 @@ div.Tokyo_lifestyle{
 }
 
 div.restaurants_picture{
-	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/clay-banks-hwLAI5lRhdM-unsplash.jpg");
+	background-image: url("Assignment Images/clay-banks-hwLAI5lRhdM-unsplash.jpg");
 	background-size:cover;
 	position: relative;
 	text-align: center;
@@ -120,7 +120,7 @@ div.restaurants_picture{
 	font-size: 18px;
 }
 .galleryimage{
-	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/galleryimage.jpg");
+	background-image: url("Assignment Images/galleryimage.jpg");
 	background-size:cover;
 	position: relative;
 	text-align: center;
@@ -226,7 +226,7 @@ a:hover{
 
 .events{
 	height: 600px;
-	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/markus-winkler-scgqFtJoa10-unsplash.jpg");
+	background-image: url("Assignment Images/markus-winkler-scgqFtJoa10-unsplash.jpg");
 	background-size: cover;
 	color: white;
 	position: relative;
@@ -322,7 +322,7 @@ form {
   border: 3px solid #CA87B2;
   margin: 50px;
   padding:50px;
-  background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/istockphoto-1175781029-612x612.jpg");
+  background-image: url("Assignment Images/istockphoto-1175781029-612x612.jpg");
 }
 .form_container2 {
 	background-color: #f1f1f1;

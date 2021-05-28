@@ -1,0 +1,445 @@
+
+body{
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+	font-family: Monaco, Monospace;
+}
+div.a {
+	padding-top: 200px;
+	padding-left: 50px;
+	font-size: 500%;
+	padding-bottom: 150px;
+}
+.topnav{
+	text-align: right;
+}
+
+.topnav {
+  width: 100%;
+  overflow: auto;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+.topnav a {
+  float: right;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: #CA87B2;
+}
+.active {
+  background-color: #CA87B2;
+}
+
+.inset {
+	border: 2px;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-color: #CA87B2;
+	padding-left: 30px;
+	margin: 100px;
+}
+div.Tokyo_lifestyle{
+	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/emil-karlsson-YfjdfsKQBsA-unsplash.jpg");
+	background-size:cover;
+	position: relative;
+	text-align: center;
+	height: 500px;
+}
+* {
+  box-sizing: border-box;
+}
+.scroll{
+	position: relative;
+}
+.scrollable_cards {
+	overflow: auto;
+	white-space: nowrap;
+	padding: 30px;
+	padding-top: 50px;
+	max-height: 500px;
+}
+.card{
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 25%;
+	background-size: cover;
+}
+.container{
+	height: 100%;
+	font-size: 18px;
+}
+.cardimages{
+  width: 100%;
+  height: 200px;
+}
+.text_tl{
+	color: white;
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	font-size: 50px;
+}
+
+div.restaurants_picture{
+	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/clay-banks-hwLAI5lRhdM-unsplash.jpg");
+	background-size:cover;
+	position: relative;
+	text-align: center;
+	height: 500px;
+}
+.food_container {
+	overflow: hide;
+	white-space: nowrap;
+	padding: 30px;
+	max-height: 500px;
+}
+.food_card{
+	display: inline-block;
+	max-width: 100%;
+	background-size: cover;
+	margin: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.foodimages{
+	display: inline-block;
+	max-width: 400px;
+	min-width: 400px;
+	max-height: 250px;
+	min-height: 250px;
+	background-size: cover;
+}
+.text_f{
+	height: 100%;
+	font-size: 18px;
+}
+.galleryimage{
+	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/galleryimage.jpg");
+	background-size:cover;
+	position: relative;
+	text-align: center;
+	height: 500px;
+}
+.galtext{
+	color: white;
+	position: relative;
+	padding-top: 250px;
+}
+.button{
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button:hover {
+  background-color: #CA87B2;
+  color: white;
+}
+footer{
+	background-color: black;
+	color: #D0D0D0;
+	min-height: 450px;
+	max-height: 100%;
+	left: 0px;
+	bottom: 0px;
+	max-width: 100%;
+	position: relative;
+	padding: 80px;
+}
+.copyright{
+	color: #808080;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	bottom: 25px;
+	left: 0px;
+	padding-top: 300px;
+}
+.links{
+	float: left;
+	width: 450px;
+	margin-top: 10px;
+}
+.Newspaper{
+	float: right;
+	width: 450px;
+	font-size: 25px;
+}
+.sub_button{
+	background-color: #CA87B2;
+	border: none;
+	color: black;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: Monaco, Monospace;
+}
+.sub_button:hover {
+  background-color: #484848;
+  color: #D0D0D0;
+}
+.exp_button{
+	background-color: white;
+	border: 2px solid #CACACA;
+	color: #CACACA;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 10px;
+	cursor: pointer;
+	font-family: Monaco, Monospace;
+	position: absolute;
+	right: 5px;
+}
+.exp_button:hover {
+  background-color:#CACACA;
+  color: white;
+}
+a{
+	text-decoration: none;
+	color: #D0D0D0;
+	
+}
+a:hover{
+	color: #484848;
+}
+
+/* Events */
+
+.events{
+	height: 600px;
+	background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/markus-winkler-scgqFtJoa10-unsplash.jpg");
+	background-size: cover;
+	color: white;
+	position: relative;
+}
+.event_cards{
+	padding: 30px;
+	height: 400px;
+	margin: 30px;
+	background-color: #F0F0F0;
+	border: 2px solid black;
+}
+.event_card_image{
+	float: left;
+	width: 500px;
+	height: 330px;
+	position: relative;
+}
+.eventimage_card{
+	max-width:100%;
+}
+.content_header{
+	bottom: 8px;
+	left: 16px;
+	font-size:20px;
+	position: absolute;
+	background-color: black;
+	color: white;
+}
+.card_contents{
+	width: 700px;
+	float: right;
+	font-size: 20px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	padding-left: 10px;
+}
+
+/* tokyoLifestyle */
+.folder{
+	height: 700px;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-top: 2px solid #CA87B2;
+	
+}
+.folder_card{
+	height: 300px;
+	width: 50%;
+	float:left;
+	position: relative;
+}
+.folder:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.life_images{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 300px;
+	min-height: 300px;
+	text-align: center;
+}
+.card_text{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	opacity: 0.8;
+}
+/* contact */
+.aboutus{
+	border-left: 2px solid #CA87B2;
+	margin: auto;
+	margin-top: 50px;
+	padding:50px;
+	width: 75%;
+	height: 400px;
+}
+.info_text{
+	width:550px;
+	float: right; 
+	
+}
+.info_image{
+	max-width: 300px;
+	float: left;
+}
+form {
+  border: 3px solid #CA87B2;
+  margin: 50px;
+  padding:50px;
+  background-image: url("C:/Users/cse20-065/Desktop/School/WMD Files/Assignment/Assignment Images/istockphoto-1175781029-612x612.jpg");
+}
+.form_container2 {
+	background-color: #f1f1f1;
+	padding: 10px;
+
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.subscribe_button{
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: Monaco, Monospace;
+}
+.subscribe_button:hover{
+	color:black;
+	background-color:#CA87B2; 
+}
+.contactus{
+	margin: auto;
+	width: 50%;
+	border-left: 3px solid #CA87B2;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+/* about */
+.about_images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+@media only screen and (max-width: 1000px){
+	.card{
+		max-width: 350px;
+		background-size: cover;
+	}
+	.food_container{
+		overflow: auto;
+	}
+	.Newspaper{
+		padding-left: 100px;
+		margin-bottom: 20px;
+	}
+	
+	
+	.event_cards{
+		height: 700px;
+	}
+	.event_card_image{
+		height: 100%;
+	}
+	.eventimage_card{
+		width: 365px;
+	}
+	.card_contents{
+		width: 370px;
+		margin-top: -350px;
+	}
+	.content_header{
+		margin-bottom: 400px;
+	}
+
+
+	.folder{
+		margin-left: 50px;
+		min-width: 400px;
+		max-width: 400px;
+		height: 100%;
+		margin-top: 50px;
+	}
+	.folder_header{
+		white-space: nowrap;
+		font-size:20px;
+	}
+	.folder_card{
+		width: 100%;
+		max-height: 200px;
+	}
+	.life_images{
+		min-height: 100%;
+		max-height: 100%;
+	}
+	.card_text{
+		background-color: black;
+		padding: 10px;
+		opacity: 0.8;
+	}
+	
+	.inset {
+	margin: 30px;
+	}
+	.aboutus{
+		height: 750px;
+	}
+	.info_image{
+		width: 200px;
+		margin-left: -30px;
+		margin-top: -30px;
+	}
+	.info_text{
+		padding-left: 250px;
+	}
+	
+}
